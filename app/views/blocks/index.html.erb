@@ -1,0 +1,29 @@
+<h1>Listing blocks</h1>
+
+<%= paginate @blocks %>
+<p>
+<table>
+  <tr>
+    <th>Chapter</th>
+    <th>Block no</th>
+    <th>Block title</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @blocks.each do |block| %>
+  <tr>
+    <td><%= block.chapter_id %></td>
+    <td><%= block.block_no %></td>
+    <td><%= block.block_title %></td>
+    <td><%= link_to 'Show', block %></td>
+    <td><%= link_to 'Edit', edit_block_path(block) %></td>
+    <td><%= link_to 'Destroy', block, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Block', new_block_path %>

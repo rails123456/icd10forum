@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Block:</b>
+  <%= @code.block_id %>
+</p>
+
+<p>
+  <b>Code 3:</b>
+  <%= @code.code_3 %>
+</p>
+
+<p>
+  <b>Code 6:</b>
+  <%= @code.code_6 %>
+</p>
+
+<p>
+  <b>Code title:</b>
+  <%= @code.code_title %>
+</p>
+
+
+<%= link_to 'Edit', edit_code_path(@code) %> |
+<%= link_to 'Back', codes_path %>

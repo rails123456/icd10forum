@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Chapter:</b>
+  <%= @block.chapter_id %>
+</p>
+
+<p>
+  <b>Block no:</b>
+  <%= @block.block_no %>
+</p>
+
+<p>
+  <b>Block title:</b>
+  <%= @block.block_title %>
+</p>
+
+
+<%= link_to 'Edit', edit_block_path(@block) %> |
+<%= link_to 'Back', blocks_path %>
