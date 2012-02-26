@@ -1,10 +1,19 @@
 Icd10forum::Application.routes.draw do
+  get "home/index"
+
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
   resources :codes
 
   resources :blocks
 
   resources :chapters
 
+  # ActiveAdmin suggestion
+  root :to => "home#index"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

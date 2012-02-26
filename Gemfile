@@ -39,5 +39,6 @@ group :development, :test do
 end
 
 gem 'spork'
-gem 'kaminari'
 gem 'yaml_db'
+gem 'mongrel', :group => :development
+gem 'activeadmin'

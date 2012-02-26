@@ -4,4 +4,8 @@ class Chapter < ActiveRecord::Base
 
   validates_presence_of :chap_no, :message => 'is required'
   validates_presence_of :chap_title, :message => 'is required'
+
+  def to_s
+    chap_title
+  end
 end

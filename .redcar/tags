@@ -1,0 +1,222 @@
+1330269590
+AdminUser	/rails/icd10forum/app/models/admin_user.rb	class AdminUser 
+Application	/rails/icd10forum/config/application.rb	  class Application 
+ApplicationController	/rails/icd10forum/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/rails/icd10forum/app/helpers/application_helper.rb	module ApplicationHelper
+Block	/rails/icd10forum/app/models/block.rb	class Block 
+Blocks	/rails/icd10forum/spec/requests/blocks_spec.rb	describe "Blocks" do
+BlocksController	/rails/icd10forum/app/controllers/blocks_controller.rb	class BlocksController 
+BlocksHelper	/rails/icd10forum/app/helpers/blocks_helper.rb	module BlocksHelper
+Chapter	/rails/icd10forum/app/models/chapter.rb	class Chapter 
+Chapters	/rails/icd10forum/spec/requests/chapters_spec.rb	describe "Chapters" do
+ChaptersController	/rails/icd10forum/app/controllers/chapters_controller.rb	class ChaptersController 
+ChaptersHelper	/rails/icd10forum/app/helpers/chapters_helper.rb	module ChaptersHelper
+Code	/rails/icd10forum/app/models/code.rb	class Code 
+Codes	/rails/icd10forum/spec/requests/codes_spec.rb	describe "Codes" do
+CodesController	/rails/icd10forum/app/controllers/codes_controller.rb	class CodesController 
+CodesHelper	/rails/icd10forum/app/helpers/codes_helper.rb	module CodesHelper
+CreateAdminNotes	/rails/icd10forum/db/migrate/20120226044530_create_admin_notes.rb	class CreateAdminNotes 
+CreateBlocks	/rails/icd10forum/db/migrate/20120218181444_create_blocks.rb	class CreateBlocks 
+CreateChapters	/rails/icd10forum/db/migrate/20120218161325_create_chapters.rb	class CreateChapters 
+CreateCodes	/rails/icd10forum/db/migrate/20120219102852_create_codes.rb	class CreateCodes 
+DELETE destroy	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	describe "DELETE destroy" do
+DeviseCreateAdminUsers	/rails/icd10forum/db/migrate/20120226124524_devise_create_admin_users.rb	class DeviseCreateAdminUsers 
+GET 'index'	/rails/icd10forum/spec/controllers/home_controller_spec.rb	describe "GET 'index'" do
+GET /blocks	/rails/icd10forum/spec/requests/blocks_spec.rb	describe "GET /blocks" do
+GET /chapters	/rails/icd10forum/spec/requests/chapters_spec.rb	describe "GET /chapters" do
+GET /codes	/rails/icd10forum/spec/requests/codes_spec.rb	describe "GET /codes" do
+GET edit	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	describe "GET edit" do
+GET edit	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	describe "GET edit" do
+GET edit	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	describe "GET edit" do
+GET index	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	describe "GET index" do
+GET index	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	describe "GET index" do
+GET index	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	describe "GET index" do
+GET new	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	describe "GET new" do
+GET new	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	describe "GET new" do
+GET new	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	describe "GET new" do
+GET show	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	describe "GET show" do
+GET show	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	describe "GET show" do
+GET show	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	describe "GET show" do
+HomeController	/rails/icd10forum/app/controllers/home_controller.rb	class HomeController 
+HomeHelper	/rails/icd10forum/app/helpers/home_helper.rb	module HomeHelper
+Icd10forum	/rails/icd10forum/config/application.rb	module Icd10forum
+MoveAdminNotesToComments	/rails/icd10forum/db/migrate/20120226044531_move_admin_notes_to_comments.rb	class MoveAdminNotesToComments 
+POST create	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	describe "POST create" do
+POST create	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	describe "POST create" do
+POST create	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	describe "POST create" do
+PUT update	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	describe "PUT update" do
+PUT update	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	describe "PUT update" do
+PUT update	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	describe "PUT update" do
+a chapter can contain a block(s)	/rails/icd10forum/spec/models/chapter_spec.rb	it "a chapter can contain a block(s)" do
+a chapter can contain a code(s) through blocks	/rails/icd10forum/spec/models/chapter_spec.rb	it "a chapter can contain a code(s) through blocks" do
+assigns a new block as @block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "assigns a new block as @block" do
+assigns a new chapter as @chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "assigns a new chapter as @chapter" do
+assigns a new code as @code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "assigns a new code as @code" do
+assigns a newly created block as @block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "assigns a newly created block as @block" do
+assigns a newly created but unsaved block as @block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "assigns a newly created but unsaved block as @block" do
+assigns a newly created but unsaved chapter as @chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "assigns a newly created but unsaved chapter as @chapter" do
+assigns a newly created but unsaved code as @code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "assigns a newly created but unsaved code as @code" do
+assigns a newly created chapter as @chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "assigns a newly created chapter as @chapter" do
+assigns a newly created code as @code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "assigns a newly created code as @code" do
+assigns all blocks as @blocks	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "assigns all blocks as @blocks" do
+assigns all chapters as @chapters	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "assigns all chapters as @chapters" do
+assigns all codes as @codes	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "assigns all codes as @codes" do
+assigns the block as @block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "assigns the block as @block" do
+assigns the chapter as @chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "assigns the chapter as @chapter" do
+assigns the code as @code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "assigns the code as @code" do
+assigns the requested block as @block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "assigns the requested block as @block" do
+assigns the requested block as @block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "assigns the requested block as @block" do
+assigns the requested block as @block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "assigns the requested block as @block" do
+assigns the requested chapter as @chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "assigns the requested chapter as @chapter" do
+assigns the requested chapter as @chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "assigns the requested chapter as @chapter" do
+assigns the requested chapter as @chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "assigns the requested chapter as @chapter" do
+assigns the requested code as @code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "assigns the requested code as @code" do
+assigns the requested code as @code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "assigns the requested code as @code" do
+assigns the requested code as @code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "assigns the requested code as @code" do
+blocks/edit	/rails/icd10forum/spec/views/blocks/edit.html.erb_spec.rb	describe "blocks/edit" do
+blocks/index	/rails/icd10forum/spec/views/blocks/index.html.erb_spec.rb	describe "blocks/index" do
+blocks/new	/rails/icd10forum/spec/views/blocks/new.html.erb_spec.rb	describe "blocks/new" do
+blocks/show	/rails/icd10forum/spec/views/blocks/show.html.erb_spec.rb	describe "blocks/show" do
+change	/rails/icd10forum/db/migrate/20120218181444_create_blocks.rb	  def change
+change	/rails/icd10forum/db/migrate/20120218161325_create_chapters.rb	  def change
+change	/rails/icd10forum/db/migrate/20120219102852_create_codes.rb	  def change
+change	/rails/icd10forum/db/migrate/20120226124524_devise_create_admin_users.rb	  def change
+chapters/edit	/rails/icd10forum/spec/views/chapters/edit.html.erb_spec.rb	describe "chapters/edit" do
+chapters/index	/rails/icd10forum/spec/views/chapters/index.html.erb_spec.rb	describe "chapters/index" do
+chapters/new	/rails/icd10forum/spec/views/chapters/new.html.erb_spec.rb	describe "chapters/new" do
+chapters/show	/rails/icd10forum/spec/views/chapters/show.html.erb_spec.rb	describe "chapters/show" do
+codes/edit	/rails/icd10forum/spec/views/codes/edit.html.erb_spec.rb	describe "codes/edit" do
+codes/index	/rails/icd10forum/spec/views/codes/index.html.erb_spec.rb	describe "codes/index" do
+codes/new	/rails/icd10forum/spec/views/codes/new.html.erb_spec.rb	describe "codes/new" do
+codes/show	/rails/icd10forum/spec/views/codes/show.html.erb_spec.rb	describe "codes/show" do
+concats two strings with spaces	/rails/icd10forum/spec/helpers/blocks_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/rails/icd10forum/spec/helpers/chapters_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/rails/icd10forum/spec/helpers/codes_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/rails/icd10forum/spec/helpers/home_helper_spec.rb	it "concats two strings with spaces" do
+create	/rails/icd10forum/app/controllers/chapters_controller.rb	  def create
+create	/rails/icd10forum/app/controllers/blocks_controller.rb	  def create
+create	/rails/icd10forum/app/controllers/codes_controller.rb	  def create
+creates a new Block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "creates a new Block" do
+creates a new Chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "creates a new Chapter" do
+creates a new Code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "creates a new Code" do
+destroy	/rails/icd10forum/app/controllers/chapters_controller.rb	  def destroy
+destroy	/rails/icd10forum/app/controllers/blocks_controller.rb	  def destroy
+destroy	/rails/icd10forum/app/controllers/codes_controller.rb	  def destroy
+destroys the requested block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "destroys the requested block" do
+destroys the requested chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "destroys the requested chapter" do
+destroys the requested code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "destroys the requested code" do
+down	/rails/icd10forum/db/migrate/20120226044530_create_admin_notes.rb	  def self.down
+down	/rails/icd10forum/db/migrate/20120226044531_move_admin_notes_to_comments.rb	  def self.down
+edit	/rails/icd10forum/app/controllers/chapters_controller.rb	  def edit
+edit	/rails/icd10forum/app/controllers/blocks_controller.rb	  def edit
+edit	/rails/icd10forum/app/controllers/codes_controller.rb	  def edit
+home/index.html.erb	/rails/icd10forum/spec/views/home/index.html.erb_spec.rb	describe "home/index.html.erb" do
+index	/rails/icd10forum/app/controllers/chapters_controller.rb	  def index
+index	/rails/icd10forum/app/controllers/blocks_controller.rb	  def index
+index	/rails/icd10forum/app/controllers/codes_controller.rb	  def index
+index	/rails/icd10forum/app/controllers/home_controller.rb	  def index
+must have a 3 chars code	/rails/icd10forum/spec/models/code_spec.rb	it "must have a 3 chars code" do
+must have a 3-6 chars code	/rails/icd10forum/spec/models/code_spec.rb	it "must have a 3-6 chars code" do
+must have a block_no	/rails/icd10forum/spec/models/block_spec.rb	it "must have a block_no" do
+must have a block_title	/rails/icd10forum/spec/models/block_spec.rb	it "must have a block_title" do
+must have a chap_no	/rails/icd10forum/spec/models/chapter_spec.rb	it "must have a chap_no" do
+must have a chap_title	/rails/icd10forum/spec/models/chapter_spec.rb	it "must have a chap_title" do
+must have a code_title	/rails/icd10forum/spec/models/code_spec.rb	it "must have a code_title" do
+new	/rails/icd10forum/app/controllers/chapters_controller.rb	  def new
+new	/rails/icd10forum/app/controllers/blocks_controller.rb	  def new
+new	/rails/icd10forum/app/controllers/codes_controller.rb	  def new
+re-renders the 'edit' template	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'new' template	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "re-renders the 'new' template" do
+redirects to the block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "redirects to the block" do
+redirects to the blocks list	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "redirects to the blocks list" do
+redirects to the chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "redirects to the chapter" do
+redirects to the chapters list	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "redirects to the chapters list" do
+redirects to the code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "redirects to the code" do
+redirects to the codes list	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "redirects to the codes list" do
+redirects to the created block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "redirects to the created block" do
+redirects to the created chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "redirects to the created chapter" do
+redirects to the created code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "redirects to the created code" do
+renders a list of blocks	/rails/icd10forum/spec/views/blocks/index.html.erb_spec.rb	it "renders a list of blocks" do
+renders a list of chapters	/rails/icd10forum/spec/views/chapters/index.html.erb_spec.rb	it "renders a list of chapters" do
+renders a list of codes	/rails/icd10forum/spec/views/codes/index.html.erb_spec.rb	it "renders a list of codes" do
+renders attributes in <p>	/rails/icd10forum/spec/views/blocks/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/rails/icd10forum/spec/views/codes/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/rails/icd10forum/spec/views/chapters/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders new block form	/rails/icd10forum/spec/views/blocks/new.html.erb_spec.rb	it "renders new block form" do
+renders new chapter form	/rails/icd10forum/spec/views/chapters/new.html.erb_spec.rb	it "renders new chapter form" do
+renders new code form	/rails/icd10forum/spec/views/codes/new.html.erb_spec.rb	it "renders new code form" do
+renders the edit block form	/rails/icd10forum/spec/views/blocks/edit.html.erb_spec.rb	it "renders the edit block form" do
+renders the edit chapter form	/rails/icd10forum/spec/views/chapters/edit.html.erb_spec.rb	it "renders the edit chapter form" do
+renders the edit code form	/rails/icd10forum/spec/views/codes/edit.html.erb_spec.rb	it "renders the edit code form" do
+returns http success	/rails/icd10forum/spec/controllers/home_controller_spec.rb	it "returns http success" do
+routes to #create	/rails/icd10forum/spec/routing/codes_routing_spec.rb	it "routes to #create" do
+routes to #create	/rails/icd10forum/spec/routing/blocks_routing_spec.rb	it "routes to #create" do
+routes to #create	/rails/icd10forum/spec/routing/chapters_routing_spec.rb	it "routes to #create" do
+routes to #destroy	/rails/icd10forum/spec/routing/codes_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/rails/icd10forum/spec/routing/blocks_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/rails/icd10forum/spec/routing/chapters_routing_spec.rb	it "routes to #destroy" do
+routes to #edit	/rails/icd10forum/spec/routing/codes_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/rails/icd10forum/spec/routing/blocks_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/rails/icd10forum/spec/routing/chapters_routing_spec.rb	it "routes to #edit" do
+routes to #index	/rails/icd10forum/spec/routing/codes_routing_spec.rb	it "routes to #index" do
+routes to #index	/rails/icd10forum/spec/routing/blocks_routing_spec.rb	it "routes to #index" do
+routes to #index	/rails/icd10forum/spec/routing/chapters_routing_spec.rb	it "routes to #index" do
+routes to #new	/rails/icd10forum/spec/routing/codes_routing_spec.rb	it "routes to #new" do
+routes to #new	/rails/icd10forum/spec/routing/blocks_routing_spec.rb	it "routes to #new" do
+routes to #new	/rails/icd10forum/spec/routing/chapters_routing_spec.rb	it "routes to #new" do
+routes to #show	/rails/icd10forum/spec/routing/codes_routing_spec.rb	it "routes to #show" do
+routes to #show	/rails/icd10forum/spec/routing/blocks_routing_spec.rb	it "routes to #show" do
+routes to #show	/rails/icd10forum/spec/routing/chapters_routing_spec.rb	it "routes to #show" do
+routes to #update	/rails/icd10forum/spec/routing/codes_routing_spec.rb	it "routes to #update" do
+routes to #update	/rails/icd10forum/spec/routing/blocks_routing_spec.rb	it "routes to #update" do
+routes to #update	/rails/icd10forum/spec/routing/chapters_routing_spec.rb	it "routes to #update" do
+routing	/rails/icd10forum/spec/routing/codes_routing_spec.rb	describe "routing" do
+routing	/rails/icd10forum/spec/routing/blocks_routing_spec.rb	describe "routing" do
+routing	/rails/icd10forum/spec/routing/chapters_routing_spec.rb	describe "routing" do
+should pass validations if block_no  and block_title are present	/rails/icd10forum/spec/models/block_spec.rb	it "should pass validations if block_no  and block_title are present" do
+should pass validations if chap_no and chap_title are present	/rails/icd10forum/spec/models/chapter_spec.rb	it "should pass validations if chap_no and chap_title are present" do
+should pass validations if code_3, code_6 and code_title are present	/rails/icd10forum/spec/models/code_spec.rb	it "should pass validations if code_3, code_6 and code_title are present" do
+show	/rails/icd10forum/app/controllers/chapters_controller.rb	  def show
+show	/rails/icd10forum/app/controllers/blocks_controller.rb	  def show
+show	/rails/icd10forum/app/controllers/codes_controller.rb	  def show
+string concat	/rails/icd10forum/spec/helpers/blocks_helper_spec.rb	describe "string concat" do
+string concat	/rails/icd10forum/spec/helpers/chapters_helper_spec.rb	describe "string concat" do
+string concat	/rails/icd10forum/spec/helpers/codes_helper_spec.rb	describe "string concat" do
+string concat	/rails/icd10forum/spec/helpers/home_helper_spec.rb	describe "string concat" do
+to_s	/rails/icd10forum/app/models/block.rb	  def to_s
+to_s	/rails/icd10forum/app/models/chapter.rb	  def to_s
+up	/rails/icd10forum/db/migrate/20120226044530_create_admin_notes.rb	  def self.up
+up	/rails/icd10forum/db/migrate/20120226044531_move_admin_notes_to_comments.rb	  def self.up
+update	/rails/icd10forum/app/controllers/chapters_controller.rb	  def update
+update	/rails/icd10forum/app/controllers/blocks_controller.rb	  def update
+update	/rails/icd10forum/app/controllers/codes_controller.rb	  def update
+updates the requested block	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	it "updates the requested block" do
+updates the requested chapter	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	it "updates the requested chapter" do
+updates the requested code	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	it "updates the requested code" do
+valid_attributes	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	  def valid_attributes
+valid_attributes	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	  def valid_attributes
+valid_attributes	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	  def valid_attributes
+valid_session	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	  def valid_session
+valid_session	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	  def valid_session
+valid_session	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	  def valid_session
+with invalid params	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	describe "with invalid params" do
+with invalid params	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	describe "with invalid params" do
+with invalid params	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	describe "with invalid params" do
+with invalid params	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	describe "with invalid params" do
+with invalid params	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	describe "with invalid params" do
+with invalid params	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	describe "with invalid params" do
+with valid params	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	describe "with valid params" do
+with valid params	/rails/icd10forum/spec/controllers/blocks_controller_spec.rb	describe "with valid params" do
+with valid params	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	describe "with valid params" do
+with valid params	/rails/icd10forum/spec/controllers/codes_controller_spec.rb	describe "with valid params" do
+with valid params	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	describe "with valid params" do
+with valid params	/rails/icd10forum/spec/controllers/chapters_controller_spec.rb	describe "with valid params" do
+works! (now write some real specs)	/rails/icd10forum/spec/requests/codes_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/rails/icd10forum/spec/requests/blocks_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/rails/icd10forum/spec/requests/chapters_spec.rb	it "works! (now write some real specs)" do

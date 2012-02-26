@@ -1,0 +1,60 @@
+--- 
+cursor_positions: 
+  - :path: config.ru
+    :cursor_offset: 0
+    :timestamp: 2012-02-26 04:18:18 -08:00
+  - :path: config/database.yml
+    :cursor_offset: 0
+    :timestamp: 2012-02-26 04:18:18 -08:00
+  - :path: Gemfile
+    :cursor_offset: 494
+    :timestamp: 2012-02-26 04:40:36 -08:00
+  - :path: config/environments/development.rb
+    :cursor_offset: 1100
+    :timestamp: 2012-02-26 04:46:38 -08:00
+  - :path: config/routes.rb
+    :cursor_offset: 183
+    :timestamp: 2012-02-26 04:48:09 -08:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 259
+    :timestamp: 2012-02-26 04:51:59 -08:00
+  - :path: config/application.rb
+    :cursor_offset: 2281
+    :timestamp: 2012-02-26 04:54:59 -08:00
+  - :path: app/admin/admin_users.rb
+    :cursor_offset: 179
+    :timestamp: 2012-02-26 05:32:39 -08:00
+  - :path: config/initializers/active_admin.rb
+    :cursor_offset: 2731
+    :timestamp: 2012-02-26 05:49:57 -08:00
+    :selection_offset: 2733
+    :block_selection_mode: false
+  - :path: app/controllers/chapters_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-26 04:18:18 -08:00
+  - :path: app/models/chapter.rb
+    :cursor_offset: 218
+    :timestamp: 2012-02-26 06:36:07 -08:00
+    :selection_offset: 249
+    :block_selection_mode: false
+  - :path: app/models/block.rb
+    :cursor_offset: 220
+    :timestamp: 2012-02-26 06:22:36 -08:00
+  - :path: db/migrate/20120218161325_create_chapters.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-26 04:18:18 -08:00
+  - :path: app/admin/chapters.rb
+    :cursor_offset: 77
+    :timestamp: 2012-02-26 06:59:40 -08:00
+  - :path: app/admin/blocks.rb
+    :cursor_offset: 79
+    :timestamp: 2012-02-26 06:57:33 -08:00
+    :selection_offset: 54
+    :block_selection_mode: false
+  - :path: app/admin/codes.rb
+    :cursor_offset: 81
+    :timestamp: 2012-02-26 07:14:27 -08:00
+  - :path: app/admin/dashboards.rb
+    :cursor_offset: 33
+    :timestamp: 2012-02-26 06:58:26 -08:00
+files_to_retain: 0
