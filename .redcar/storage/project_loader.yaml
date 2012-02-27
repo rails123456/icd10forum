@@ -1,4 +1,7 @@
 --- 
 open_files: 
   - app/admin/faqs.rb
-  - app/controllers/faqs_controller.rb
+  - config/initializers/active_admin.rb
+  - app/admin/chapters.rb
+  - app/admin/blocks.rb
+  - app/admin/codes.rb

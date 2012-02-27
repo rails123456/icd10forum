@@ -24,11 +24,6 @@ cursor_positions:
   - :path: app/admin/admin_users.rb
     :cursor_offset: 179
     :timestamp: 2012-02-26 05:32:39 -08:00
-  - :path: config/initializers/active_admin.rb
-    :cursor_offset: 2731
-    :timestamp: 2012-02-26 05:49:57 -08:00
-    :selection_offset: 2733
-    :block_selection_mode: false
   - :path: app/controllers/chapters_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-02-26 04:18:18 -08:00
@@ -49,19 +44,24 @@ cursor_positions:
   - :path: app/admin/dashboards.rb
     :cursor_offset: 0
     :timestamp: 2012-02-27 01:24:04 -08:00
-  - :path: app/admin/codes.rb
+  - :path: app/controllers/faqs_controller.rb
+    :cursor_offset: 48
+    :timestamp: 2012-02-27 01:42:39 -08:00
+  - :path: app/admin/faqs.rb
+    :cursor_offset: 171
+    :timestamp: 2012-02-27 03:25:14 -08:00
+  - :path: config/initializers/active_admin.rb
+    :cursor_offset: 1014
+    :timestamp: 2012-02-27 01:24:04 -08:00
+    :selection_offset: 986
+    :block_selection_mode: false
+  - :path: app/admin/chapters.rb
     :cursor_offset: 0
     :timestamp: 2012-02-27 01:24:04 -08:00
   - :path: app/admin/blocks.rb
     :cursor_offset: 0
     :timestamp: 2012-02-27 01:24:04 -08:00
-  - :path: app/admin/chapters.rb
+  - :path: app/admin/codes.rb
     :cursor_offset: 0
     :timestamp: 2012-02-27 01:24:04 -08:00
-  - :path: app/admin/faqs.rb
-    :cursor_offset: 80
-    :timestamp: 2012-02-27 01:45:01 -08:00
-  - :path: app/controllers/faqs_controller.rb
-    :cursor_offset: 48
-    :timestamp: 2012-02-27 01:42:39 -08:00
 files_to_retain: 0

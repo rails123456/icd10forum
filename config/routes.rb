@@ -1,21 +1,21 @@
 Icd10forum::Application.routes.draw do
   resources :faqs
 
-  get "home/index"
-
   ActiveAdmin.routes(self)
 
-  devise_for :admin_users, ActiveAdmin::Devise.config
+  devise_for :admin_users, ActiveAdmin::Devise.config do
+    #get "/" => "active_admin/devise/sessions#new"
+    root :to => "active_admin/devise/sessions#new"
+  end
 
+  #root :to => "active_admin/devise/sessions#new"
+  
   resources :codes
 
   resources :blocks
 
   resources :chapters
 
-  # ActiveAdmin suggestion
-  root :to => "home#index"
-  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
