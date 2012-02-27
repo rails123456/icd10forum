@@ -1,4 +1,6 @@
 Icd10forum::Application.routes.draw do
+  resources :faqs
+
   get "home/index"
 
   ActiveAdmin.routes(self)

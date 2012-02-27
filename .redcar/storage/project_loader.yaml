@@ -1,6 +1,4 @@
 --- 
 open_files: 
-  - app/admin/chapters.rb
-  - app/admin/blocks.rb
-  - app/admin/codes.rb
-  - app/admin/dashboards.rb
+  - app/admin/faqs.rb
+  - app/controllers/faqs_controller.rb

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120226124524) do
+ActiveRecord::Schema.define(:version => 20120227092430) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -61,6 +61,12 @@ ActiveRecord::Schema.define(:version => 20120226124524) do
     t.string  "code_3",     :limit => 3
     t.string  "code_6",     :limit => 6
     t.string  "code_title"
+  end
+
+  create_table "faqs", :force => true do |t|
+    t.string "faq_item"
+    t.string "faq_q",    :limit => 2048
+    t.string "faq_a",    :limit => 2048
   end
 
 end

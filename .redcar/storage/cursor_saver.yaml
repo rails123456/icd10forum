@@ -43,18 +43,25 @@ cursor_positions:
   - :path: db/migrate/20120218161325_create_chapters.rb
     :cursor_offset: 0
     :timestamp: 2012-02-26 04:18:18 -08:00
-  - :path: app/admin/chapters.rb
-    :cursor_offset: 77
-    :timestamp: 2012-02-26 06:59:40 -08:00
-  - :path: app/admin/blocks.rb
-    :cursor_offset: 79
-    :timestamp: 2012-02-26 06:57:33 -08:00
-    :selection_offset: 54
-    :block_selection_mode: false
-  - :path: app/admin/codes.rb
-    :cursor_offset: 81
-    :timestamp: 2012-02-26 07:14:27 -08:00
+  - :path: db/migrate/20120227092428_create_faqs.rb
+    :cursor_offset: 186
+    :timestamp: 2012-02-27 01:30:09 -08:00
   - :path: app/admin/dashboards.rb
-    :cursor_offset: 33
-    :timestamp: 2012-02-26 06:58:26 -08:00
+    :cursor_offset: 0
+    :timestamp: 2012-02-27 01:24:04 -08:00
+  - :path: app/admin/codes.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-27 01:24:04 -08:00
+  - :path: app/admin/blocks.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-27 01:24:04 -08:00
+  - :path: app/admin/chapters.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-27 01:24:04 -08:00
+  - :path: app/admin/faqs.rb
+    :cursor_offset: 80
+    :timestamp: 2012-02-27 01:45:01 -08:00
+  - :path: app/controllers/faqs_controller.rb
+    :cursor_offset: 48
+    :timestamp: 2012-02-27 01:42:39 -08:00
 files_to_retain: 0
