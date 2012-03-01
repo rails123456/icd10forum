@@ -1,4 +1,4 @@
-1330345871
+1330620681
 AdminUser	/rails/icd10forum/app/models/admin_user.rb	class AdminUser 
 Application	/rails/icd10forum/config/application.rb	  class Application 
 ApplicationController	/rails/icd10forum/app/controllers/application_controller.rb	class ApplicationController 
@@ -102,9 +102,9 @@ blocks/new	/rails/icd10forum/spec/views/blocks/new.html.erb_spec.rb	describe "bl
 blocks/show	/rails/icd10forum/spec/views/blocks/show.html.erb_spec.rb	describe "blocks/show" do
 change	/rails/icd10forum/db/migrate/20120218181444_create_blocks.rb	  def change
 change	/rails/icd10forum/db/migrate/20120218161325_create_chapters.rb	  def change
+change	/rails/icd10forum/db/migrate/20120227092430_create_faqs.rb	  def change
 change	/rails/icd10forum/db/migrate/20120219102852_create_codes.rb	  def change
 change	/rails/icd10forum/db/migrate/20120226124524_devise_create_admin_users.rb	  def change
-change	/rails/icd10forum/db/migrate/20120227092430_create_faqs.rb	  def change
 chapters/edit	/rails/icd10forum/spec/views/chapters/edit.html.erb_spec.rb	describe "chapters/edit" do
 chapters/index	/rails/icd10forum/spec/views/chapters/index.html.erb_spec.rb	describe "chapters/index" do
 chapters/new	/rails/icd10forum/spec/views/chapters/new.html.erb_spec.rb	describe "chapters/new" do

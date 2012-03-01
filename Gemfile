@@ -32,13 +32,13 @@ gem 'jquery-rails'
 # gem 'ruby-debug'
 
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'watchr'
-  gem 'factory_girl'
-  gem 'factory_girl_rails'
+  #gem 'rspec-rails'
+  #gem 'watchr'
+  #gem 'factory_girl'
+  #gem 'factory_girl_rails'
 end
 
-gem 'spork'
+#gem 'spork'
 gem 'yaml_db'
 gem 'mongrel', :group => :development
 gem 'activeadmin'
