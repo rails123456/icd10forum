@@ -1,10 +1,11 @@
 Icd10forum::Application.routes.draw do
+
   resources :faqs
 
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config do
-    #get "/" => "active_admin/devise/sessions#new"
+    get "/" => "active_admin/devise/sessions#new"
     root :to => "active_admin/devise/sessions#new"
   end
 
